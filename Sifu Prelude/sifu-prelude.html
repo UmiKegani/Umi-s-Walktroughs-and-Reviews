@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sifu Prelude</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Limelight&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/general.css">
+        <link rel="stylesheet" href="styles/header.css">
+        <link rel="stylesheet" href="styles/sidebar.css">
+        <link rel="stylesheet" href="styles/banner.css">
+        <link rel="stylesheet" href="styles/content.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div class="left-section">
+                UMI'S W&R
+            </div>
+            <div class="right-section">
+                <button class="signup">
+                    Sign Up
+                </button>
+                <button class="login">
+                    Log In
+                </button>
+            </div>
+        </header>
+        <nav class="sidebar">
+            <div class="sidebar-inner">
+                <div class="sidebar-title">
+                    <div class="sidebar-title-image">
+                        <img src="images/sifu-thumbnail.ico">
+                    </div>
+                    <div class="sidebar-title-content">
+                        <div class="sidebar-title-content-title">
+                            SIFU:
+                        </div>
+                        <div class="sidebar-title-content-topic">
+                            Learning the Game
+                        </div>
+                    </div>
+                </div>
+                <!--Contains all the links under the navigation bar-->
+                <!--the # relates to the navigation id-->
+                <div class="sidebar-links">
+                    <div class="sidebar-links-blocks">
+                        <div class="sidebar-links-title">
+                            <a href="#Basics" class="sidebar-item smoothScroll">
+                                Basic Systems
+                            </a>
+                            <div class="sidebar-links-subtitle">
+                                <a href="#Health" class="sidebar-item smoothScroll">
+                                    Health System
+                                </a>
+                                <a href="#Pendant" class="sidebar-item smoothScroll">
+                                    Pendant
+                                </a>
+                                <a href="#Structure" class="sidebar-item smoothScroll">
+                                    Structure
+                                </a>
+                                <a href="#Special-Attacks" class="sidebar-item smoothScroll">
+                                    Special Attacks
+                                </a>
+                                <a href="#XP-and-Skills" class="sidebar-item smoothScroll">
+                                    XP and Skills
+                                </a>
+                                <a href="#Shrine" class="sidebar-item smoothScroll">
+                                   Shrine
+                                </a>
+                                <a href="#Game-Over" class="sidebar-item smoothScroll">
+                                    Game Over
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-links-blocks">
+                        <div class="sidebar-links-title">
+                            <a href="#General-Gameplay-Tips" class="sidebar-item smoothScroll">
+                                General Gameplay Tips
+                            </a>
+                            <div class="sidebar-links-subtitle">
+                                <a href="#Enemy-Structure" class="sidebar-item smoothScroll">
+                                    Enemy Structure
+                                </a>
+                                <a href="#Block" class="sidebar-item smoothScroll">
+                                    Block
+                                </a>
+                                <a href="#Deflect-Parry" class="sidebar-item smoothScroll">
+                                    Defelect/Parry
+                                </a>
+                                <a href="#Avoid" class="sidebar-item smoothScroll">
+                                    Avoid
+                                </a>
+                                <a href="#DvsBvsA" class="sidebar-item smoothScroll">
+                                    Deflect/Parrying vs Blocking vs Avoiding
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sidebar-links-blocks">
+                        <div class="sidebar-links-title">
+                            <a href="#Crowd-Management" class="sidebar-item smoothScroll">
+                                Crowd Management
+                            </a>
+                            <div class="sidebar-links-subtitle">
+                                <a href="#Knockdowns" class="sidebar-item smoothScroll">
+                                    Knockdowns
+                                </a>
+                                <a href="#Dizzy" class="sidebar-item smoothScroll">
+                                    Dizzy/Stunned Statuses
+                                </a>
+                                <a href="#Environmental-Hazards" class="sidebar-item smoothScroll">
+                                    Environmental Hazards
+                                </a>
+                                <a href="#Weapon Usage" class="sidebar-item smoothScroll">
+                                    Weapon Usage
+                                </a>
+                                <a href="#Throwing-Weapons-Items" class="sidebar-item smoothScroll">
+                                    Throwing Weapons/Items
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <main>
+            <!--Contains the section at the top of the page-->
+            <section class="banner">
+                <div class="banner-container">
+                    <img src="images/sifu-banner.jpg">
+                </div>
+                <div class="banner-title">
+                    <div class="banner-name">
+                        SIFU
+                    </div>
+                    <div class="banner-section-title">
+                        Learning the Game
+                    </div>
+                    <div class="banner-section-description">
+                        This beautifully creative yet painfully challenging Kung Fu beat ‘em up by Sloclap lets you be in the shoes of your favorite Golden Era Hong Kong movie. Master a multitude of skills as you plow through waves of enemies and daunting bosses, all hell bent on stopping you. Learn all the tips you need to know to climb the mountain and be your own Sifu!
+                    </div>
+                </div>
+            </section>
+            <!--Contains the section containing all of the main content of the page-->
+            <section class="content">
+                <!--Preview Image of the Page Content-->
+                <div class="content-image">
+                    <img src="images/img1.jpg">
+                </div>
+                <!--Main Layout for the Major Blocks of Content-->
+                <!--id links to the scrolling navigation sidebar-->
+                <div class="heading" id="Basics">
+                    <h1>Basic Systems</h1>
+                    <div class="content">
+                        There are several important concepts to be aware of as you play. This section discusses the systems you’ll need to understand to survive.                    </div>
+
+                    <!--Main Layout for the Individual Blocks of Content Under heading-->
+                    <div class="content-block">
+                        <h3 id="Health">Health System</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Final Health.mp4">
+                        </div>
+                        <div class="content">
+                            It is inevitable that you will be taking hits to your health, but unlike other games, Sifu has no consumables present to help you recover lost health. Instead, the game does this a couple of ways; firstly, by interacting with shrines as this would heal you up completely, and secondly by rewarding you with health for each takedown. The amount healed through takedowns can be increased through the skill tree.                        </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Pendant">Pendant</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Pendant.mp4">
+                        </div>
+                        <div class="content">
+                            Death in the game is tracked through the character’s age shown in the upper left side of the screen, each death increases the age count equal to your total death count. It is worth noting that the death count goes down by one for each sub-boss that you manage to take down.                    </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Structure">Structure</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Structure.mp4">
+                        </div>
+                        <div class="content">
+                            Enemy attacks may be blocked, deflected or avoided; attacks that are deflected will increase your structure by a smaller amount relative to blocked attacks while avoiding attacks regains your structure instead. As your structure gradually reaches its threshold, any attack blocked that would take the gauge up to the threshold will break through your guard and will be treated as if you haven’t blocked in the first place. It is worth noting that deflecting attacks while at the structure gauge threshold will prevent it from going any further. You would know than an attack has been deflected if there are white "petal" effects after each hit.                </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Special-Attacks">Special Attacks</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Special Attacks.mp4">
+                        </div>
+                        <div class="content">
+                            Certain attacks from the enemies will have an orange glow to them accompanied by a distinct sound effect. These are attacks that would greatly increase your structure gauge thus these are attacks that you should be paying really close attention to.</div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="XP-and-Skills">XP and Skills</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Xp and Skills.mp4">
+                        </div>
+                        <div class="content">
+                            Taking down enemies will award you with XP that you can use either when you arrive to a shrine or when you die. This can be used to unlock move sets, focus attacks, and perks that can help you throughout the course of the game. Investing more XP into move sets and focus attacks will eventually make them permanently unlocked.
+                        </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Shrine">Shrine</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Shrine.mp4">
+                        </div>
+                        <div class="content">
+                            Shrines are scattered around in the game at fixed locations, interacting with one will fully regenerate your health and will give you access to several unlocks. Note that the available unlocks relate to three different factors: Current Age, Current Level Score, and Current XP Total.
+                        </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Game-Over">Game Over</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Game Over.mp4">
+                        </div>
+                        <div class="content">
+                            As the deaths you have accumulated gradually increase your age, the game limits the number of deaths by capping it when you reach 70 years old. When you die with at least an age of 70, you will no longer respawn. No need to worry as you will be given the option to restart the location; this will reset your age, death counter, and learned skills and perks to what it was prior to choosing the location.                         </div>
+                    </div>
+                </div>
+                <div class="heading" id="General-Gameplay-Tips">
+                    <h1>General Gameplay Tips</h1>
+                    <div class="content">
+                        Now that you know about the basic systems that make up the game, there are numerous general tips that could help with your gameplay.
+                    <div class="content-block">
+                        <h3 id="Enemy-Structure">Enemy Structure</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Enemy Structure.mp4">
+                        </div>
+                        <div class="content">
+                            Much like you, the enemies have a structure gauge. Pay close attention to their structure gauges and see which are close to breaking.                     </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Block">Block</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Block Final.mp4">
+                        </div>
+                        <div class="content">
+                            Holding down the guard button will allow for you to block an attack and negate any unarmed damage while greatly decreasing any weapon damage. The structure gauge does increase significantly more relative to a deflect or parry.                     </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Deflect-Parry">Deflect/Parry</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Deflect Final.mp4">
+                        </div>
+                        <div class="content">
+                            Pressing the guard button right before an attack is about to land will deflect the attack, this lets you avoid any damage while only slightly increasing your structure gauge as well as greatly increasing the enemy’s structure gauge. Doing the same to certain attacks in an enemy’s attack string would result in a parry where the aforementioned effects of a deflect applies on top of stunning an enemy, leaving them open for you to deal damage back to them.                     </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Avoid">Avoid</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Avoid Final.mp4">
+                        </div>
+                        <div class="content">
+                            Holding down the guard button and inputting an Up, Left, or Right directional input will result in a duck/high avoid while inputting a Down directional input will result in a hop/low avoid. This completely negates any damage or increase in structure and will help to regain your structure. Avoiding the last hit in an enemy’s attack string will slow down time for a brief moment leaving them open to any form of retaliation.                     </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="DvsBvsA">Deflect/Parrying vs Blocking vs Avoiding</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Block Discussion Final.mp4">
+                        </div>
+                        <div class="content">
+                            Being able to choose between these three main defensive tools is vital in your gameplay as these open the enemies up to attacks of your own. Despite blocking having several downsides that the other defensive options lack, this does not mean that this should be completely avoided especially as you are growing accustomed to the combat of the game. Blocking can help when you don’t have the time to react, giving you a small window to assess the attacks being thrown at you so you can react accordingly before your structure gauge breaks.                      </div>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/DPvBvA Final.mp4">
+                        </div>
+                        <div class="content">
+                            Generally, once you have grown familiar with the attack patterns of the enemies, deflecting and parrying tends to be easier and rewarding as the enemy’s structure gauge rises while avoiding leaves them open to your attacks. It is worth noting that several attack strings may end with a special attack that is a 50/50 between a high or low attack, in this instance it is generally safer to learn the timings of these attacks as they are both the same instead of having to react.                </div>
+                    </div>
+                </div>
+                <div class="heading" id="Crowd-Management">
+                    <h1>Crowd Management</h1>
+                    <div class="content">
+                        Enemies will attempt to crowd around you to overwhelm you with attacks. Be aware that regardless of the amount of people around you, at any given time only two will actively attack you at any given while the others watch on, although the enemies chosen to attack you can change over time making it feel as if there are multiple attacking you at once. Being able to manage these waves of enemies are important and can be done through the following: </div>
+                    <div class="content-block">
+                        <h3 id="Knockdowns">Knockdowns</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Knockdown.mp4">
+                        </div>
+                        <div class="content">
+                            The simplest way is to knock enemies down either through command attacks, certain attack strings, or certain throwable items. Throwing or pushing an enemy into one that is already knocked down could be knocked down as well. They stay on the ground for a while, giving you time to deal with everyone else in the room.                     </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Dizzy">Dizzy/Stunned Statuses</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Dizzy.mp4">
+                        </div>
+                        <div class="content">
+                            Attacking enemies can put them in a dizzy state, stopping them from performing any actions for a short while. When the enemy has been damaged enough, then certain actions can instead stun an enemy leaving them immobile for longer; this can be achieved through certain skills, having another enemy thrown at them, or when interrupting an attack; an interrupted attack would generally keep them immobile for longer.                     </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Environmental-Hazards">Environmental Hazards</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Environmental Hazards.mp4">
+                        </div>
+                        <div class="content">
+                            Using the environment to your advantage such as throwing an enemy into a wall or down a flight of stairs greatly increases their structure gauge or even throwing them off ledges would take them out from the fight entirely. Be aware that environmental hazards apply to you too.                    </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Block">Weapon Usage</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Weapon Usage.mp4">
+                        </div>
+                        <div class="content">
+                            The use of a weapon greatly increases your damage output and can break through an enemy’s guard. When blocking, this also negates any chip damage taken from armed attacks.                        </div>
+                    </div>
+                    <div class="content-block">
+                        <h3 id="Throwing-Weapons-Items">Throwing Weapons/Items</h3>
+                        <div class="content-media">
+                            <video controls autoplay muted loop src="videos/Throwing Weapons.mp4">
+                        </div>
+                        <div class="content">
+                            You can use a weapon to create space for you to maneuver to a better position or open up an enemy’s guard.                       </div>
+                    </div>
+                    <h3>These are the things you need to be weary of as you play, no worries if this seems like a lot as these will come in time as you play. Time to leave the Wuguan, first stop, 
+                        <a class="the-squats">The Squats</a>!</h3>
+                </div>
+            </section>
+        </main>
+    </body>
+</html>
