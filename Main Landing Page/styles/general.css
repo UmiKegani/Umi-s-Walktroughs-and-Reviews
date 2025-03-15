@@ -1,0 +1,25 @@
+body {
+    padding-top: 49px;
+    font-family: roboto, arial;
+    background-color: #26292b;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+::-webkit-scrollbar{
+    width: 7px;
+}
+
+::-webkit-scrollbar-track{
+    background: none;
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgb(27, 104, 104);
+    border-radius: 100px;
+    height: 5px;
+}
