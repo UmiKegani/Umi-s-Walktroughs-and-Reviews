@@ -1,0 +1,40 @@
+.content{
+    padding: 0 20px;
+    font-size: 17.5px;
+    line-height: 23px;
+
+    color: white;
+
+}
+.content-image{
+    justify-self: center;
+}
+
+.content-image img{
+    height: 300px;
+}
+
+.content-block .content{
+    font-size: 17px;
+}
+
+.content-media{
+    justify-self: center;
+    margin: 20px 0;
+}
+.content-media video{
+    height: 400px;
+}
+
+.the-squats{
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+.skill-image{
+    height: 500px
+}
+.skill-image img{
+    height: 200px;
+    object-fit: cover;
+}
