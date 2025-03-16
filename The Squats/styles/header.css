@@ -1,0 +1,64 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-color: #34373a;
+
+    height: 55px;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    
+    z-index: 100;
+}
+
+.left-section{
+    align-content: center;
+
+    font-family: limelight, roboto, arial;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.right-section{
+    align-content: center;
+
+    padding-right: 15px;
+}
+
+button{
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+
+    border-radius: 15px;
+    border: none;
+
+
+    padding: 5px 10px;
+}
+
+.signup{
+    background-color: #26292b;
+    cursor: pointer;
+}
+.signup:hover{
+    color:  #719192;
+}
+
+.login{
+    background-color: #719192;
+    cursor: pointer;
+}
+.login:hover{
+    background-color: white;
+    color:  #719192;
+}

@@ -1,0 +1,11 @@
+body {
+    padding-top: 49px;
+    padding-left: 194px;
+    font-family: roboto, arial;
+    background-color: #26292b;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
